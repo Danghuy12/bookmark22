@@ -115,3 +115,4 @@ const validate = (nameValue, urlValue) => {
 
 // event for submit data
 bookmarkForm.addEventListener('submit', storeBookmark)
+fetchBookmarks();
